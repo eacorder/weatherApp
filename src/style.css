@@ -1,0 +1,253 @@
+body, html {
+    background-color: #152238;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.container {
+    margin:  0px 100px 0px 100px; 
+    background-color: #152238;
+    min-height: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+ 
+.header{ 
+    display: flex;
+    align-items: center; 
+    column-gap: 14rem; 
+}
+
+.header  > h1 {
+    color: white;
+    
+}
+
+.search {
+    border-radius: 12px ; 
+    height: 35%;
+    width: 63%;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 8px 8px 8px 58px;
+
+    background-color: rgb(47 66 94);;
+    border-color: #152238;
+    color: white;
+}
+
+.panel {
+    border-radius: 15px ; 
+    background-color: rgb(47 66 94);
+    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.leftContent {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.rightContent {
+    padding: 20px;
+    display: grid;
+}
+
+
+.city {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+    
+}   
+
+.leftCityPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding-left:  60px;
+   
+}
+
+.leftCityPanel > span {
+   font-size: 50px;  
+}
+
+.rightCityPanel > span {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+     
+  }
+.rightCityPanel > img {
+    flex: 1;
+   
+    
+ }
+
+.rightCityPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cityDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.cityDescription > span:first-of-type {
+    font-size: 50px;
+}
+
+.cityDescription > span:last-of-type {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.airCondition {
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    row-gap: 25px;
+    justify-content: center; 
+    padding-top: 20px;
+    padding-left: 60px;
+    
+}
+
+.headerCondition{
+    font-size: 20px;
+}
+
+.airContainer {
+    flex: 1;
+    display: flex;
+
+}
+
+.airContainer > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    
+}
+
+.leftCondition > div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rightCondition > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.rightCondition {
+    padding-left: 0px;
+    
+}
+
+.leftCondition > div > span:first-of-type {
+    font-size: 18px;
+    
+}
+
+.leftCondition > div > span:last-of-type {
+    font-size: 38px;
+    
+}
+
+.rightCondition > div > span:first-of-type {
+    font-size: 18px;
+    
+}
+
+.rightCondition > div > span:last-of-type {
+    font-size: 38px;
+    
+}
+
+.today {
+    color: white;
+    padding-top: 20px;
+   
+     
+}
+
+.today > span {
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+ .today > div {
+    font-size: 18px;
+    padding-top: 30px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.hour  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightPanel {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 30px; 
+    
+}
+
+.rightPanel > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rightPanel > span {
+    font-size: 20px;
+}
+
+.week {
+    font-size: 18px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.week > span, .week > div {
+    flex: 1;
+}
+
+.week > div > div{
+    display: flex;
+    font-size: 18px;
+    column-gap: 12px;
+    justify-content: end;
+}
